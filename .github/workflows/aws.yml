@@ -52,7 +52,7 @@ permissions:
   contents: read
 
 # Workflow는 다양한 Job으로 구성되며 여러 Job이 있을 경우 default로 병렬 실행함
-# 아래는 deploy라는 job을 생성하고 그 아래에 6개의 step이 존재하는 구조
+# 아래는 Build & Deploy라는 job을 생성하고 그 아래에 6개의 step이 존재하는 구조
 # runs-on은 어떤 OS에서 실행될지 지정
 # steps의 uses는 미리 만들어진 액션이 있을 때 어떤 액션을 사용할지 지정함
 jobs:
